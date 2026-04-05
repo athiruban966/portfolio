@@ -275,7 +275,7 @@ export default function Portfolio() {
           {[
             ["📧", "athiruban966@gmail.com", "mailto:athiruban966@gmail.com"],
             ["📞", "+91 93446 61658", "tel:+91 93446 61658"],
-            ["🐙", "https://github.com/athiruban966", "_blank"],
+            ["🐙", "GitHub","https://github.com/athiruban966","_blank"],
           ].map(([icon, label, href]) => (
             <a key={label} href={href} className="contact-row">
               <span>{icon}</span> {label}
